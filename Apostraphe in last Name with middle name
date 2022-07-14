@@ -1,0 +1,17 @@
+# Apostraphe in last Name with middle name
+print("What is the first name")
+Fname = input()
+print("What is the middle name")
+Mname = input()
+print("What is the first half of the name before the apostraphe")
+Lname = input()
+print("What is the second half of the name before the apostraphe")
+L2name = input()
+
+print("\"" + Fname + " " + Mname + " " + Lname + "'" + L2Name + "\"")
+print("\"" + Fname + " " + Lname + "'" + L2Name + "\"")
+print("\"" + Fname + " " + Mname + " " + Lname  + L2Name + "\"")
+print("\"" + Fname + " " + Lname + L2Name + "\"")
+print("\"" + Fname + " " + Mname + "\"")
+print("\"" + Fname + " " + "*" + " " + Lname + "'" + L2Name +  "\"")
+print("\"" + Fname + " " + "*" + " " + Lname + L2Name +  "\"")
