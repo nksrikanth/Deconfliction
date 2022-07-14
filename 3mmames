@@ -1,4 +1,4 @@
-# Deconfliction two middle names
+# Deconfliction 3 middle names
 print("What is the first name")
 fname = input()
 print("What is the middle name")
@@ -18,6 +18,7 @@ print("\"" + fname + " " + mname + " " + m3name + "\"")
 print("\"" + fname + " " + m2name + " " + m3name + "\"")
 print("\"" + fname + " " + mname + " " + lname + "\"")
 print("\"" + fname + " " + m2name + " " + lname + "\"")
+print("\"" + fname + " " + m3name + " " + lname + "\"")
 print("\"" + fname + " " + lname + "\"")
 print("\"" + fname + " " + "*" + " " + lname + "\"")
 print("\"" + fname + " " + mname + "\"")
